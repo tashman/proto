@@ -32,15 +32,15 @@ html
 {
 	z-index: 1;
 	width: 380px;
-	min-height: 437px;
+	min-height: 555px;
 	background-image: none;
 	border-style: none;
 	border-color: transparent;
 	background-color: #FFFFFF;
-	padding-bottom: 133px;
+	padding-bottom: 15px;
 }
 
-#u1166-3
+#u1551-3
 {
 	z-index: 3;
 	width: 5px;
@@ -50,17 +50,7 @@ html
 	left: -347px;
 }
 
-#pu1165
-{
-	width: 0.01px;
-	padding-bottom: 0px;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 45px;
-	left: 21px;
-}
-
-#u1165
+#u1548
 {
 	z-index: 2;
 	width: 328px;
@@ -68,11 +58,14 @@ html
 	border-style: solid;
 	border-color: #000000;
 	background-color: #FFFFFF;
-	padding-bottom: 107px;
+	padding-bottom: 198px;
 	position: relative;
+	margin-right: -10000px;
+	margin-top: 26px;
+	left: 21px;
 }
 
-#u1167-4
+#u1549-4
 {
 	z-index: 6;
 	width: 264px;
@@ -80,23 +73,24 @@ html
 	text-align: center;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 100px;
+	margin-top: 173px;
 	left: 33px;
 }
 
-#u1168-4
+#u1550-4
 {
 	z-index: 10;
-	width: 215px;
-	min-height: 68px;
-	text-align: center;
-	margin-left: 66px;
-	margin-top: 32px;
+	width: 64px;
+	min-height: 41px;
 	position: relative;
+	margin-right: -10000px;
+	margin-top: 514px;
+	left: 159px;
 }
 
 #page .verticalspacer
 {
 	clear: both;
+	margin-bottom: -513px;
 }
 
