@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+ margin: 0px, auto;	
+}
+
+.frame {
+	width: 100%;
+	height: 480px;
+	text-align:center;
+	color: #FFF;
+	font-family: 'Architects Daughter', cursive;
+	
+}
+
+.frame a {
+	text-decoration:none;
+	color: #FFF;	
+}
+
+h1 { visibility:hidden;}
+h2 { 
+padding-bottom: 20px;
+margin-top: -10px;
+font-size:36px;
+}
+
+img { padding-top: 20px; }
+
+#box1 {
+	float: left;
+	width: 50%;
+	height: 180px;	
+	background-color:#2faf2f;
+}
+
+#box1:hover {
+background-color: #000;			
+}
+
+
+#box2 {
+	float: right;
+	width: 50%;
+	height: 180px;		
+	background-color:#606;
+}
+
+#box2:hover {
+background-color: #000;		
+}
+
+
+#box3 {
+	float: left;
+	width: 50%;
+	height: 180px;	;	
+	background-color:#F90;
+}
+
+#box3:hover {
+background-color: #000;		
+}
+
+#box4 {
+	float: right;
+	width: 50%;
+	height: 180px;		
+	background-color: #7186c3;
+}
+
+#box4:hover {
+background-color: #000;		
+}
+
+
+#box5 {
+	float: left;
+	width: 50%;
+	height: 180px;	
+	background-color:#ed1a4d;
+}
+
+#box5:hover {
+background-color: #000;			
+}
+
+#box6 {
+	float: right;
+	width: 50%;
+	height: 180px;		
+	background-color: #C6F;
+}
+
+#box6:hover {
+background-color: #000;		
+}
