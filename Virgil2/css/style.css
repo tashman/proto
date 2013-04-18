@@ -1,9 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html {
- margin: 0px, auto;	
-}
+
 
 .frame {
 	width: 100%;
@@ -19,11 +17,12 @@ html {
 	color: #FFF;	
 }
 
-h1 { visibility:hidden;}
+h1 { visibility:hidden; font-size: 1px;}
+
 h2 { 
-padding-bottom: 20px;
-margin-top: -10px;
-font-size:36px;
+	padding-bottom: 20px;
+	margin-top: -5px;
+	font-size:36px;
 }
 
 img { padding-top: 20px; }
@@ -35,10 +34,7 @@ img { padding-top: 20px; }
 	background-color:#2faf2f;
 }
 
-#box1:hover {
-background-color: #000;			
-}
-
+#box1:hover {background-color: #000;}
 
 #box2 {
 	float: right;
@@ -47,9 +43,7 @@ background-color: #000;
 	background-color:#606;
 }
 
-#box2:hover {
-background-color: #000;		
-}
+#box2:hover {background-color: #000;}
 
 
 #box3 {
@@ -59,9 +53,7 @@ background-color: #000;
 	background-color:#F90;
 }
 
-#box3:hover {
-background-color: #000;		
-}
+#box3:hover {background-color: #000;}
 
 #box4 {
 	float: right;
@@ -70,9 +62,7 @@ background-color: #000;
 	background-color: #7186c3;
 }
 
-#box4:hover {
-background-color: #000;		
-}
+#box4:hover {background-color: #000;}
 
 
 #box5 {
@@ -82,9 +72,7 @@ background-color: #000;
 	background-color:#ed1a4d;
 }
 
-#box5:hover {
-background-color: #000;			
-}
+#box5:hover {background-color: #000;}
 
 #box6 {
 	float: right;
@@ -93,6 +81,4 @@ background-color: #000;
 	background-color: #C6F;
 }
 
-#box6:hover {
-background-color: #000;		
-}
+#box6:hover {background-color: #000;}
