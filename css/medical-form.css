@@ -145,8 +145,8 @@ html
 	z-index: 111;
 	width: 327px;
 	min-height: 85px;
-	font-size: 18px;
 	line-height: 1.1;
+	font-size: 18px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 16px;
@@ -332,8 +332,8 @@ html
 	z-index: 87;
 	width: 38px;
 	min-height: 22px;
-	color: #7F7F7F;
 	font-size: 19px;
+	color: #7F7F7F;
 	text-align: center;
 	font-family: architects-daughter, sans-serif;
 	font-weight: 400;
@@ -348,8 +348,8 @@ html
 	z-index: 91;
 	width: 46px;
 	min-height: 22px;
-	color: #7F7F7F;
 	font-size: 19px;
+	color: #7F7F7F;
 	text-align: center;
 	font-family: architects-daughter, sans-serif;
 	font-weight: 400;
