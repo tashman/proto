@@ -17,15 +17,100 @@
 	color: #FFF;	
 }
 
-h1 { visibility:hidden; font-size: 1px;}
+h1 { 
+	visibility:hidden; 
+	margin-top: -2px;
+	font-size: 1px;
+}
 
 h2 { 
-	padding-bottom: 20px;
-	margin-top: -5px;
+
+	margin-top: -12px;
 	font-size:36px;
 }
 
+h3 {
+	font-family: 'Architects Daughter', cursive;
+	color: #FFF;
+	font-size: 28px;
+
+}
+
 img { padding-top: 20px; }
+
+.medsprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('images/sprite.png') no-repeat -2px 0;
+	width: 96px;
+	height: 96px;
+}
+
+.infosprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('images/sprite.png') no-repeat -100px 0;
+	width: 96px;
+	height: 96px;
+}
+
+.phonesprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('images/sprite.png') no-repeat -202px -103px;
+	width: 96px;
+	height: 96px;
+}
+
+.placesprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('images/sprite.png') no-repeat -1px -101px;
+	width: 96px;
+	height: 96px;
+}
+
+
+.vidsprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('images/sprite.png') no-repeat -201px -1px;
+	width: 96px;
+	height: 96px;
+}
+
+.homesprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('images/sprite.png') no-repeat -98px -101px;
+	width: 96px;
+	height: 96px;
+}
+
+.virgil-logo {
+	background: url('images/sprite.png') no-repeat -301px -60px;
+	width: 99px;
+	height: 79px;
+
+}
+
+
+#masterbox {
+	margin: 20px, auto, 20px, auto;
+}
+
 
 #box1 {
 	float: left;
@@ -82,3 +167,16 @@ img { padding-top: 20px; }
 }
 
 #box6:hover {background-color: #000;}
+
+
+#footer { 
+	position: absolute; 
+	width: 100%;
+}
+
+#footer .virgil-logo {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 80px;
+	left: -36px;
+}
