@@ -44,8 +44,8 @@ img { padding-top: 20px; }
 	margin-top: 20px;
 	left: -48px;
 	background: url('images/sprite.png') no-repeat -2px 0;
-	width: 96px;
-	height: 96px;
+	width: 98px;
+	height: 98px;
 }
 
 .infosprite {
@@ -54,8 +54,8 @@ img { padding-top: 20px; }
 	margin-top: 20px;
 	left: -48px;
 	background: url('images/sprite.png') no-repeat -100px 0;
-	width: 96px;
-	height: 96px;
+	width: 98px;
+	height: 98px;
 }
 
 .phonesprite {
@@ -63,9 +63,9 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('images/sprite.png') no-repeat -202px -103px;
-	width: 96px;
-	height: 96px;
+	background: url('images/sprite.png') no-repeat -204px -104px;
+	width: 98px;
+	height: 98px;
 }
 
 .placesprite {
@@ -73,9 +73,9 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('images/sprite.png') no-repeat -1px -101px;
-	width: 96px;
-	height: 96px;
+	background: url('images/sprite.png') no-repeat -1px -102px;
+	width: 98px;
+	height: 98px;
 }
 
 
@@ -84,9 +84,9 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('images/sprite.png') no-repeat -201px -1px;
-	width: 96px;
-	height: 96px;
+	background: url('images/sprite.png') no-repeat -200px -2px;
+	width: 98px;
+	height: 98px;
 }
 
 .homesprite {
@@ -94,13 +94,13 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('images/sprite.png') no-repeat -98px -101px;
-	width: 96px;
-	height: 96px;
+	background: url('images/sprite.png') no-repeat -97px -100px;
+	width: 99px;
+	height: 99px;
 }
 
 .virgil-logo {
-	background: url('images/sprite.png') no-repeat -301px -60px;
+	background: url('images/sprite.png') no-repeat -300px -60px;
 	width: 99px;
 	height: 79px;
 
@@ -125,7 +125,7 @@ img { padding-top: 20px; }
 	float: right;
 	width: 50%;
 	height: 180px;		
-	background-color:#606;
+	background-color:#1f0066;
 }
 
 #box2:hover {background-color: #000;}
@@ -163,20 +163,31 @@ img { padding-top: 20px; }
 	float: right;
 	width: 50%;
 	height: 180px;		
-	background-color: #C6F;
+	background-color: #8a26a2;
 }
 
 #box6:hover {background-color: #000;}
 
 
 #footer { 
-	position: absolute; 
+	background: url('images/footer-bgd.png');
+	display: block;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #FFF;
+	margin-top: 60px;
+	height: 200px;
 	width: 100%;
+
+
 }
 
 #footer .virgil-logo {
+	display: block;
 	position: relative;
 	margin-left: 50%;
-	margin-top: 80px;
 	left: -36px;
+	top: 10px;
+
+
 }
