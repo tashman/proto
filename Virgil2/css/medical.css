@@ -1,0 +1,177 @@
+@charset "UTF-8";
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	margin: 0px, auto;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+a {
+text-decoration: none;	
+}
+
+.frame {
+	width: 100%;
+	text-align:center;
+	color: #FFF;
+	font-family: 'Architects Daughter', cursive;
+	
+}
+
+
+h1 { 
+	visibility:hidden; 
+	margin-top: -2px;
+	font-size: 1px;
+}
+
+h2 { 
+	text-align: center;
+	font-size:36px;
+}
+
+h3 {
+	font-family: 'Architects Daughter', cursive;
+	color: #FFF;
+	font-size: 24px;
+
+}
+
+<!-----------------body content ------------------>
+
+#photoframe {
+	width: 300px;
+	height: 150px;
+	background-color: #FFF;
+	border: solid 3px #CCC;
+	margin: 8px;
+}
+
+
+#namebox {
+	width: 320px;
+	height: 30px;
+	text-align: center;
+}
+
+#primary {
+	width: 320px;
+	height: 35px;
+	text-align: center;
+}
+
+#namebox h3 {
+	font-size: 48px;
+	margin-bottom: 250px;
+}
+
+
+#secondary {
+	width: 300px;
+	height: 35px;
+	text-align: center;
+	margin-left: 10px;
+	margin-bottom: -10px;
+}
+
+
+#description {
+	width: 300px;
+	height: 35px;
+	text-align: center;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+<!-----------------buttons ------------------>
+#buttonbox {
+	width: 320px;
+	margin-top: 10px;
+
+}
+ #buttonbox:hover {
+	background-color: #000; 
+ }
+
+#buttonA {
+	position: relative;
+	float: left;
+	height: 60px;
+		width: 49%;
+	background-color: green;
+}
+
+#buttonA:hover {
+		background-color: #000;
+}
+
+
+#buttonB {
+	position: relative;
+	float: right;
+	height: 60px;
+	width: 49%;;
+	background-color: blue;
+}
+
+#buttonB:hover {
+		background-color: #000;
+}
+
+
+#buttonC {
+	position: relative;
+	float: left;
+	height: 60px;
+	width: 49%;;
+	background-color: purple;
+	margin-top: 5px;
+}
+
+#buttonC:hover {
+		background-color: #000;
+}
+
+#buttonD {
+	position: relative;
+	float: right;
+	height: 60px;
+	width: 49%;
+	background-color: #666;
+	margin-top: 5px;
+}
+
+#buttonD:hover {
+		background-color: #000;
+}
+
+#clear {
+clear: both;	
+}
+
+<!-----------------footer ------------------>
+
+#footer { 
+	background: url('images/footer-bgd.png');
+	display: block;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #ed1a4d;
+	height: 200px;
+	width: 100%;
+}
+
+#footer .virgil-logo {
+	display: block;
+	position: relative;
+	margin-left: 50%;
+	left: -36px;
+	top: 10px;
+}
+
+/* CSS Document */
+

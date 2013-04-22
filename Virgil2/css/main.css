@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+		margin: 0px, auto;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+a:hover {
+		background-color: #000;
+}
+
+.frame {
+	width: 100%;
+	text-align:center;
+	color: #FFF;
+	font-family: 'Architects Daughter', cursive;
+	
+}
+
+
+h1 { 
+	visibility:hidden; 
+	margin-top: -2px;
+	font-size: 1px;
+}
+
+h2 { 
+	text-align: center;
+	font-size:36px;
+}
+
+h3 {
+	font-family: 'Architects Daughter', cursive;
+	color: #FFF;
+	font-size: 18px;
+
+}
+
+
+#footer { 
+	background: url('images/footer-bgd.png');
+	display: block;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #2faf2f;
+	height: 200px;
+	width: 100%;
+}
+
+#footer .virgil-logo {
+	display: block;
+	position: relative;
+	margin-left: 50%;
+	left: -36px;
+	top: 10px;
+}
+
+#photoframe {
+	width: 300px;
+	height: 150px;
+	background-color: #FFF;
+	border: solid 3px #CCC;
+	margin: 8px;
+}
+
+#namebox {
+	width: 320px;
+	height: 30px;
+	text-align: center;
+}
+
+#primary {
+	width: 320px;
+	height: 35px;
+	text-align: center;
+}
+
+#namebox h3 {
+	font-size: 36px
+}
+
+
+#secondary {
+	width: 300px;
+	height: 35px;
+	text-align: center;
+	margin-left: 10px;
+}
+#description {
+	width: 300px;
+	height: 35px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#buttonA {
+	float: left;
+	height: 50px;
+	width: 150px;
+	background-color: red;
+	margin-left: 5px
+}
+
+
+#buttonB {
+	float: right;
+	height: 50px;
+	width: 150px;
+	background-color: blue;
+	margin-left: 5px
+}
+
+#buttonC {
+	float: left;
+	height: 50px;
+	width: 150px;
+	background-color: purple;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+#buttonD {
+	float: right;
+	height: 50px;
+	width: 150px;
+	background-color: white;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+
+
