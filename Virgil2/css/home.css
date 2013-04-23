@@ -65,7 +65,7 @@ padding-left: 10px;
 }
 
 #footer { 
-	background: url('images/footer-bgd.png');
+	background: url('../images/footer-bgd.png');
 	display: block;
 	background-position: center;
 	background-attachment: fixed;

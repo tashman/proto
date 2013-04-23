@@ -9,6 +9,7 @@ body {
 
 a {
 	text-decoration: none;
+	color: #FFF;
 }
 
 .frame {
@@ -142,13 +143,14 @@ h3 {
 }
 
 #footer { 
-	background: url('images/footer-bgd.png');
+	background: url('../images/footer-bgd.png');
 	display: block;
 	background-position: center;
 	background-attachment: fixed;
 	background-color: #FFF;
 	height: 200px;
 	width: 100%;
+	margin-top: 10px;
 }
 
 
