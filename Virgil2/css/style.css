@@ -43,7 +43,7 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('images/sprite.png') no-repeat -2px 0;
+	background: url('../images/sprite.png') no-repeat -2px 0;
 	width: 98px;
 	height: 98px;
 }
@@ -53,7 +53,7 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('images/sprite.png') no-repeat -100px 0;
+	background: url('../images/sprite.png') no-repeat -100px 0;
 	width: 98px;
 	height: 98px;
 }
@@ -63,7 +63,7 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('images/sprite.png') no-repeat -204px -104px;
+	background: url('../images/sprite.png') no-repeat -204px -104px;
 	width: 98px;
 	height: 98px;
 }
@@ -73,7 +73,7 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('images/sprite.png') no-repeat -1px -102px;
+	background: url('../images/sprite.png') no-repeat -1px -102px;
 	width: 98px;
 	height: 98px;
 }
@@ -84,7 +84,7 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('images/sprite.png') no-repeat -200px -2px;
+	background: url('../images/sprite.png') no-repeat -200px -2px;
 	width: 98px;
 	height: 98px;
 }
@@ -94,13 +94,13 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('images/sprite.png') no-repeat -97px -100px;
+	background: url('../images/sprite.png') no-repeat -97px -100px;
 	width: 99px;
 	height: 99px;
 }
 
 .virgil-logo {
-	background: url('images/sprite.png') no-repeat -300px -60px;
+	background: url('../images/sprite.png') no-repeat -300px -60px;
 	width: 99px;
 	height: 79px;
 

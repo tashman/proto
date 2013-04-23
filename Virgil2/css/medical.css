@@ -1,13 +1,12 @@
 @charset "UTF-8";
-@charset "UTF-8";
 /* CSS Document */
-
-
 body {
-	margin: 0px, auto;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
+	font-family: 'Architects Daughter', cursive;
+	text-align: center;
+			
 }
 
 a {
@@ -15,11 +14,9 @@ text-decoration: none;
 }
 
 .frame {
+	position: absolute;
 	width: 100%;
-	text-align:center;
-	color: #FFF;
-	font-family: 'Architects Daughter', cursive;
-	
+	height: 480px;
 }
 
 
@@ -30,69 +27,94 @@ h1 {
 }
 
 h2 { 
-	text-align: center;
+	color: #000;
 	font-size:36px;
 }
 
 h3 {
-	font-family: 'Architects Daughter', cursive;
-	color: #FFF;
+	color: #000;
 	font-size: 24px;
-
 }
+
+h4 {
+
+	color: #000;
+	font-size: 18px;
+}
+
+h5 {
+	color: #FFF;
+	font-size: 16pt;
+}
+
 
 <!-----------------body content ------------------>
 
+
+#contentframe {
+	position: relative;
+	height: 70%;
+	width: 100%;
+}
+
+#buttonframe {
+	position: relative;
+	height: 30%;
+	width: 100%;
+}
+
 #photoframe {
+
 	width: 300px;
 	height: 150px;
-	background-color: #FFF;
+	background-color: #000;
 	border: solid 3px #CCC;
 	margin: 8px;
 }
 
 
 #namebox {
-	width: 320px;
-	height: 30px;
 	text-align: center;
 }
 
 #primary {
-	width: 320px;
-	height: 35px;
+	height: 40px;
 	text-align: center;
+	margin-top: -20px;
 }
 
 #namebox h3 {
 	font-size: 48px;
-	margin-bottom: 250px;
+	margin-bottom: 10px;
 }
 
 
 #secondary {
-	width: 300px;
 	height: 35px;
 	text-align: center;
 	margin-left: 10px;
-	margin-bottom: -10px;
+	margin-top: -20px;
 }
 
 
 #description {
-	width: 300px;
 	height: 35px;
 	text-align: center;
 	margin-left: 10px;
-	margin-bottom: 10px;
+	margin-top: -20px;
+	padding-bottom: 50px;
 }
 
 <!-----------------buttons ------------------>
+
+
 #buttonbox {
 	width: 320px;
 	margin-top: 10px;
 
 }
+
+
  #buttonbox:hover {
 	background-color: #000; 
  }
@@ -101,12 +123,13 @@ h3 {
 	position: relative;
 	float: left;
 	height: 60px;
-		width: 49%;
-	background-color: green;
+	width: 49%;
+	background-color: red;
 }
 
 #buttonA:hover {
 		background-color: #000;
+	
 }
 
 
@@ -115,7 +138,7 @@ h3 {
 	float: right;
 	height: 60px;
 	width: 49%;;
-	background-color: blue;
+	background-color: red;
 }
 
 #buttonB:hover {
@@ -128,7 +151,7 @@ h3 {
 	float: left;
 	height: 60px;
 	width: 49%;;
-	background-color: purple;
+	background-color: red;
 	margin-top: 5px;
 }
 
@@ -141,12 +164,13 @@ h3 {
 	float: right;
 	height: 60px;
 	width: 49%;
-	background-color: #666;
+	background-color: red;
 	margin-top: 5px;
 }
 
 #buttonD:hover {
 		background-color: #000;
+		color: #FFF;
 }
 
 #clear {
