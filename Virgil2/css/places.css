@@ -26,9 +26,11 @@ h1 {
 }
 
 h2 { 
-	margin-top: -130px;
-	padding-left: 152px;
-	font-size: 60px;
+	width: 200px;
+	margin-top: -90px;
+	padding-left: 120px;
+	font-size: 42pt;
+	line-height: 32pt;
 }
 
 h3 {
@@ -38,7 +40,7 @@ h3 {
 
 .placebar {
 	width: 100%;
-	height: 150px;	;	
+	height: 130px;	;	
 	background-color:#F90;
 	border: solid 3px #FFF;
 	
@@ -48,10 +50,9 @@ h3 {
 
 .iconframe {
 	position: relative;
-	height: 117px;
-	width: 117px;
-	border: 4px solid #FFF;
-	margin: 10px 0px 10px 10px;
+	height: 100px;
+	width: 100px;
+	margin: 15px 0px 0px 10px;
 }
 
 
@@ -60,20 +61,20 @@ h3 {
 	margin-left: 50%;
 	margin-top: 10px;
 	left: -48px;
-	background: url('images/sprite.png') no-repeat -1px -100px;
+	background: url('../images/sprite.png') no-repeat -1px -100px;
 	width: 96px;
 	height: 99px;
 
 }
 
 .virgil-logo {
-	background: url('images/sprite.png') no-repeat -300px -60px;
+	background: url('../images/sprite.png') no-repeat -300px -60px;
 	width: 99px;
 	height: 79px;
 
 }
 #footer { 
-	background: url('images/footer-bgd.png');
+	background: url('../images/footer-bgd.png');
 	display: block;
 	background-position: center;
 	background-attachment: fixed;
