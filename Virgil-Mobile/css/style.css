@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* CSS Document */
+<!--stylesheet for Virgil Mobile Dashboard-->
+
+.frame {
+	width: 100%;
+	height: 480px;
+	text-align:center;
+	color: #FFF;
+	font-family: 'Architects Daughter', cursive;
+	
+}
+
+.frame a {
+	text-decoration:none;
+	color: #FFF;	
+}
+
+h1 { 
+	visibility:hidden; 
+	margin-top: -2px;
+	font-size: 1px;
+}
+
+h2 { 
+
+	margin-top: -12px;
+	font-size:36px;
+}
+
+h3 {
+	font-family: 'Architects Daughter', cursive;
+	color: #FFF;
+	font-size: 28px;
+
+}
+
+img { padding-top: 20px; }
+
+.medsprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('../images/sprite.png') no-repeat -2px 0;
+	width: 98px;
+	height: 98px;
+}
+
+.infosprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('../images/sprite.png') no-repeat -100px 0;
+	width: 98px;
+	height: 98px;
+}
+
+.phonesprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('../images/sprite.png') no-repeat -204px -104px;
+	width: 98px;
+	height: 98px;
+}
+
+.placesprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('../images/sprite.png') no-repeat 0px -101px;
+	width: 98px;
+	height: 98px;
+}
+
+
+.vidsprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('../images/sprite.png') no-repeat -200px -2px;
+	width: 98px;
+	height: 98px;
+}
+
+.homesprite {
+	position: relative;
+	margin-left: 50%;
+	margin-top: 20px;
+	left: -48px;
+	background: url('../images/sprite.png') no-repeat -97px -100px;
+	width: 99px;
+	height: 99px;
+}
+
+.virgil-logo {
+	background: url('../images/sprite.png') no-repeat -300px -60px;
+	width: 99px;
+	height: 79px;
+
+}
+
+
+#masterbox {
+	margin: 20px, auto, 20px, auto;
+}
+
+
+#box1 {
+	float: left;
+	width: 50%;
+	height: 180px;	
+	background-color:#2faf2f;
+}
+
+#box1:hover {background-color: #000;}
+
+#box2 {
+	float: right;
+	width: 50%;
+	height: 180px;		
+	background-color:#1f0066;
+}
+
+#box2:hover {background-color: #000;}
+
+
+#box3 {
+	float: left;
+	width: 50%;
+	height: 180px;	;	
+	background-color:#F90;
+}
+
+#box3:hover {background-color: #000;}
+
+#box4 {
+	float: right;
+	width: 50%;
+	height: 180px;		
+	background-color: #7186c3;
+}
+
+#box4:hover {background-color: #000;}
+
+
+#box5 {
+	float: left;
+	width: 50%;
+	height: 180px;	
+	background-color:#ed1a4d;
+}
+
+#box5:hover {background-color: #000;}
+
+#box6 {
+	float: right;
+	width: 50%;
+	height: 180px;		
+	background-color: #8a26a2;
+}
+
+#box6:hover {background-color: #000;}
+
+
+#footer { 
+	background: url('../images/footer-bgd.png');
+	display: block;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #FFF;
+	margin-top: 60px;
+	height: 200px;
+	width: 100%;
+
+
+}
+
+#footer .virgil-logo {
+	display: block;
+	position: relative;
+	margin-left: 50%;
+	left: -36px;
+	top: 10px;
+
+
+}
