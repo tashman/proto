@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+	background: url('../images/footer-bgd.png');
+	background-position: center;
+	background-attachment: fixed;
+	height: 480px;
+	width: 100%;
+
+
+}
+
+.frame {
+	width: 100%;
+	height: 480px;
+	text-align:center;
+	line-height: 20px;
+	color: #FFF;
+	font-family: 'Architects Daughter', cursive;
+	
+}
+
+.frame a {
+	text-decoration: underline;
+	color: #000;	
+}
+
+h1 { 
+	visibility:hidden; 
+	margin-top: -2px;
+	font-size: 1px;
+}
+
+h2 { 
+font-family: 'Architects Daughter', cursive;
+	color: #000;
+	font-size: 20pt;
+}
+
+h3 {
+	font-family: 'Architects Daughter', cursive;
+	color: #000;
+	font-size: 16pt;
+
+}
+
+#loginframe {
+	width: 300px;
+	height: 200px;
+	margin: 80px 8px 30px 8px;
+	border: solid 3px #000;
+	z-index: 10;
+}
+ 
+.virgil-logo {
+	position: relative;
+	width: 320px;
+	margin-left: 50%;
+	margin-top: 100px;
+	margin-bottom: -100px;
+	left: -50px;
+	background: url('../images/sprite.png') no-repeat -300px -60px;
+	width: 99px;
+	height: 79px;
+	z-index: 20;
+
+}
+
+
+#masterbox {
+	margin: 0px, auto;
+}
+
+
+#alertbox {
+width: 310px;
+padding-left: 10px;	
+}
+
+
+
+
+/* CSS Document */
+

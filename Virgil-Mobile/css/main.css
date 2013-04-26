@@ -38,9 +38,9 @@ h2 {
 h3 {
 	font-family: 'Architects Daughter', cursive;
 	font-size: 18pt;
-	
 }
 
+h5 { font-size: 14pt; }
 
 #photoframe {
 	width: 300px;
@@ -60,6 +60,7 @@ h3 {
 	width: 320px;
 	height: 15px;
 	text-align: center;
+	margin-bottom: -5px;
 }
 
 
@@ -80,11 +81,12 @@ h3 {
 	text-align: center;
 	margin-left: 10px;
 	margin-bottom: 10px;
+	line-height: 20px;
 }
 
 #Buttonarea {
 	margin-left: 5px;
-	margin-top: -5px;
+	margin-top: -15px;
 	height: 120px;
 	width: 310px;
 }
@@ -92,7 +94,7 @@ h3 {
 
 #buttonA {
 	float: left;
-	height: 50px;
+	height: 60px;
 	width: 150px;
 	background-color: #2faf2f;
 }
@@ -104,7 +106,7 @@ h3 {
 
 #buttonB {
 	float: right;
-	height: 50px;
+	height: 60px;
 	width: 150px;
 	background-color: #2faf2f;
 }
@@ -116,7 +118,7 @@ h3 {
 
 #buttonC {
 	float: left;
-	height: 50px;
+	height: 60px;
 	width: 150px;
 	background-color: #2faf2f;
 	margin-top: 5px;
@@ -131,7 +133,7 @@ h3 {
 
 #buttonD {
 	float: right;
-	height: 50px;
+	height: 60px;
 	width: 150px;
 	background-color: #2faf2f;
 	margin-top: 5px;

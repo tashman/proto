@@ -28,18 +28,18 @@ h1 {
 
 h2 { 
 	color: #000;
-	font-size:36px;
+	font-size: 36pt;
 }
 
 h3 {
 	color: #000;
-	font-size: 24px;
+	font-size: 18pt;
 }
 
 h4 {
 
 	color: #000;
-	font-size: 18px;
+	font-size: 13pt;
 }
 
 h5 {
@@ -64,12 +64,12 @@ h5 {
 }
 
 #photoframe {
-
 	width: 300px;
 	height: 150px;
 	background-color: #000;
-	border: solid 3px #CCC;
-	margin: 8px;
+	border: solid 3px #red;
+	margin: 8px 8px -50px 8px;
+	
 }
 
 
@@ -80,12 +80,13 @@ h5 {
 #primary {
 	height: 40px;
 	text-align: center;
-	margin-top: -20px;
+	margin-top: -35px;
 }
 
 #namebox h3 {
 	font-size: 48px;
 	margin-bottom: 10px;
+	
 }
 
 
@@ -93,16 +94,17 @@ h5 {
 	height: 35px;
 	text-align: center;
 	margin-left: 10px;
-	margin-top: -20px;
+	margin-top: -35px;
 }
 
 
 #description {
-	height: 35px;
+	height: 28pt;
+	line-height: 14pt;
 	text-align: center;
 	margin-left: 10px;
 	margin-top: -20px;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 
 <!-----------------buttons ------------------>
@@ -111,9 +113,10 @@ h5 {
 #buttonbox {
 	width: 320px;
 	margin-top: 10px;
-
 }
 
+#buttonbox h5 {
+}
 
  #buttonbox:hover {
 	background-color: #000; 
@@ -126,6 +129,7 @@ h5 {
 	width: 49%;
 	background-color: red;
 }
+
 
 #buttonA:hover {
 		background-color: #000;
@@ -180,14 +184,17 @@ clear: both;
 <!-----------------footer ------------------>
 
 #footer { 
-	background: url('images/footer-bgd.png');
+	background: url('../images/footer-bgd.png');
 	display: block;
 	background-position: center;
 	background-attachment: fixed;
-	background-color: #ed1a4d;
+	background-color: #FFF;
 	height: 200px;
 	width: 100%;
+	margin-top: 10px;
 }
+
+
 
 #footer .virgil-logo {
 	display: block;
@@ -196,6 +203,4 @@ clear: both;
 	left: -36px;
 	top: 10px;
 }
-
-/* CSS Document */
 
