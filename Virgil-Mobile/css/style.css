@@ -23,9 +23,10 @@ h1 {
 }
 
 h2 { 
-
-	margin-top: -12px;
-	font-size:36px;
+	font-family: 'Architects Daughter', cursive;
+	text-align: center;
+	margin-top: -18px;
+	font-size: 32px;
 }
 
 h3 {
@@ -62,7 +63,7 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('../images/sprite.png') no-repeat -204px -104px;
+	background: url('../images/sprite.png') no-repeat -202px -102px;
 	width: 98px;
 	height: 98px;
 }
@@ -83,7 +84,7 @@ img { padding-top: 20px; }
 	margin-left: 50%;
 	margin-top: 20px;
 	left: -48px;
-	background: url('../images/sprite.png') no-repeat -200px -2px;
+	background: url('../images/sprite.png') no-repeat -200px 0px;
 	width: 98px;
 	height: 98px;
 }
@@ -107,23 +108,30 @@ img { padding-top: 20px; }
 
 
 #masterbox {
-	margin: 20px, auto, 20px, auto;
+	position: absolute;
+	height: 480px;
+	margin: 0px auto;
 }
+
+
 
 
 #box1 {
+	position: relative;
 	float: left;
 	width: 50%;
-	height: 180px;	
+	height: 33%;	
 	background-color:#2faf2f;
 }
+
 
 #box1:hover {background-color: #000;}
 
 #box2 {
+	position: relative;
 	float: right;
 	width: 50%;
-	height: 180px;		
+	height: 33%;	
 	background-color:#1f0066;
 }
 
@@ -131,18 +139,20 @@ img { padding-top: 20px; }
 
 
 #box3 {
+	position: relative;
 	float: left;
 	width: 50%;
-	height: 180px;	;	
+	height: 33%;		
 	background-color:#F90;
 }
 
 #box3:hover {background-color: #000;}
 
 #box4 {
+	position: relative;
 	float: right;
 	width: 50%;
-	height: 180px;		
+	height: 33%;		
 	background-color: #7186c3;
 }
 
@@ -150,18 +160,20 @@ img { padding-top: 20px; }
 
 
 #box5 {
+	position: relative;
 	float: left;
 	width: 50%;
-	height: 180px;	
+	height: 34%;	
 	background-color:#ed1a4d;
 }
 
 #box5:hover {background-color: #000;}
 
 #box6 {
+	position: relative;
 	float: right;
 	width: 50%;
-	height: 180px;		
+	height: 34%;		
 	background-color: #8a26a2;
 }
 

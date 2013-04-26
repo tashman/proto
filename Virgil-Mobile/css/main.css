@@ -43,21 +43,26 @@ h3 {
 h5 { font-size: 14pt; }
 
 #photoframe {
-	width: 300px;
+	width: 100%;
+	margin-left: 50%;
+	left: 150px;
 	height: 150px;
 	background-color: #FFF;
-	border: solid 3px #2faf2f;
 	margin: 4px 8px 0px 8px;
 }
 
+
+#photoframe img { border: solid 3px #2faf2f; }
+	
+	
 #namebox {
-	width: 320px;
+	width: 100%;
 	height: 30px;
 	text-align: center;
 }
 
 #primary {
-	width: 320px;
+	width: 100%;
 	height: 15px;
 	text-align: center;
 	margin-bottom: -5px;
@@ -71,13 +76,13 @@ h5 { font-size: 14pt; }
 
 
 #secondary {
-	width: 300px;
+	width: 100%;
 	height: 15px;
 	text-align: center;
 	margin-left: 10px;
 }
 #description {
-	width: 300px;
+	width: 100%;
 	text-align: center;
 	margin-left: 10px;
 	margin-bottom: 10px;
@@ -88,14 +93,14 @@ h5 { font-size: 14pt; }
 	margin-left: 5px;
 	margin-top: -15px;
 	height: 120px;
-	width: 310px;
+	width: 100%
 }
 
 
 #buttonA {
 	float: left;
 	height: 60px;
-	width: 150px;
+	width: 49%;
 	background-color: #2faf2f;
 }
 
@@ -107,7 +112,7 @@ h5 { font-size: 14pt; }
 #buttonB {
 	float: right;
 	height: 60px;
-	width: 150px;
+	width: 49%;
 	background-color: #2faf2f;
 }
 
@@ -119,7 +124,7 @@ h5 { font-size: 14pt; }
 #buttonC {
 	float: left;
 	height: 60px;
-	width: 150px;
+	width: 49%;
 	background-color: #2faf2f;
 	margin-top: 5px;
 	margin-bottom: 10px;
@@ -134,7 +139,7 @@ h5 { font-size: 14pt; }
 #buttonD {
 	float: right;
 	height: 60px;
-	width: 150px;
+	width: 49%;
 	background-color: #2faf2f;
 	margin-top: 5px;
 	margin-bottom: 10px;
