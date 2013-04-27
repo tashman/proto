@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@charset "UTF-8";
-/* CSS Document */
+/* login.css for Virgil Mobile -- Dan Tashman */
 
 body { 
 	background: url('../images/footer-bgd.png');
@@ -8,8 +7,7 @@ body {
 	background-attachment: fixed;
 	height: 480px;
 	width: 100%;
-
-
+	font-family: 'Architects Daughter', cursive;
 }
 
 .frame {
@@ -17,14 +15,13 @@ body {
 	height: 480px;
 	text-align:center;
 	line-height: 20px;
-	color: #FFF;
-	font-family: 'Architects Daughter', cursive;
-	
+	color: #FFF;	
 }
 
 .frame a {
 	text-decoration: underline;
-	color: #999;	
+	color: #000;
+	font-weight:bold;
 }
 
 h1 { 
@@ -84,20 +81,7 @@ margin-right: 20px;
 .input-button:hover {
 	    background-color: #000;
        border:1px solid #000;   
-	   color: #FFF;
-	   
-}
-
- 
-.virgil-logo {
-	position: relative;
-	width: 320px;
-	margin-left: 50%;
-	margin-top: 60px;
-	left: -50px;
-	background: url('../images/sprite.png') no-repeat -300px -60px;
-	width: 99px;
-	height: 79px;
+	   color: #FFF;   
 }
 
 #alertbox {
@@ -106,7 +90,4 @@ margin-right: 20px;
 }
 
 
-
-
-/* CSS Document */
 
