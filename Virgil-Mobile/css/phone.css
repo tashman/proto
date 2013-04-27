@@ -10,7 +10,7 @@ body {
 
 .frame {
 	width: 100%;
-	height: 480px;
+	height: 100%;
 	color: #FFF;
 	font-family: 'Architects Daughter', cursive;
 	
@@ -28,11 +28,10 @@ h1 {
 }
 
 h2 { 
-	width: 220px;
 	margin-top: -90px;
 	padding-left: 130px;
-	font-size: 42pt;
-	line-height: 32pt;
+	font-size: 48px;
+	line-height: 36px;
 }
 
 h3 {

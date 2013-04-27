@@ -4,7 +4,9 @@
 
 .frame {
 	width: 100%;
-	height: 480px;
+	height: 100%;
+	position: absolute;
+	margin: 0px auto;
 	text-align:center;
 	color: #FFF;
 	font-family: 'Architects Daughter', cursive;
@@ -26,6 +28,7 @@ h2 {
 	font-family: 'Architects Daughter', cursive;
 	text-align: center;
 	margin-top: -18px;
+	margin-bottom: -5px;
 	font-size: 32px;
 }
 
@@ -36,12 +39,10 @@ h3 {
 
 }
 
-img { padding-top: 20px; }
-
 .medsprite {
 	position: relative;
 	margin-left: 50%;
-	margin-top: 20px;
+	margin-top: 12px;
 	left: -48px;
 	background: url('../images/sprite.png') no-repeat -2px 0;
 	width: 98px;
@@ -51,7 +52,7 @@ img { padding-top: 20px; }
 .infosprite {
 	position: relative;
 	margin-left: 50%;
-	margin-top: 20px;
+	margin-top: 12px;
 	left: -48px;
 	background: url('../images/sprite.png') no-repeat -100px 0;
 	width: 98px;
@@ -61,7 +62,7 @@ img { padding-top: 20px; }
 .phonesprite {
 	position: relative;
 	margin-left: 50%;
-	margin-top: 20px;
+	margin-top: 12px;
 	left: -48px;
 	background: url('../images/sprite.png') no-repeat -202px -102px;
 	width: 98px;
@@ -71,18 +72,17 @@ img { padding-top: 20px; }
 .placesprite {
 	position: relative;
 	margin-left: 50%;
-	margin-top: 20px;
+	margin-top: 12px;
 	left: -48px;
 	background: url('../images/sprite.png') no-repeat 0px -101px;
 	width: 98px;
 	height: 98px;
 }
 
-
 .vidsprite {
 	position: relative;
 	margin-left: 50%;
-	margin-top: 20px;
+	margin-top: 12px;
 	left: -48px;
 	background: url('../images/sprite.png') no-repeat -200px 0px;
 	width: 98px;
@@ -92,28 +92,12 @@ img { padding-top: 20px; }
 .homesprite {
 	position: relative;
 	margin-left: 50%;
-	margin-top: 20px;
+	margin-top: 12px;
 	left: -48px;
 	background: url('../images/sprite.png') no-repeat -97px -100px;
-	width: 99px;
-	height: 99px;
+	width: 98px;
+	height: 98px;
 }
-
-.virgil-logo {
-	background: url('../images/sprite.png') no-repeat -300px -60px;
-	width: 99px;
-	height: 79px;
-
-}
-
-
-#masterbox {
-	position: absolute;
-	height: 480px;
-	margin: 0px auto;
-}
-
-
 
 
 #box1 {
@@ -180,25 +164,3 @@ img { padding-top: 20px; }
 #box6:hover {background-color: #000;}
 
 
-#footer { 
-	background: url('../images/footer-bgd.png');
-	display: block;
-	background-position: center;
-	background-attachment: fixed;
-	background-color: #FFF;
-	margin-top: 60px;
-	height: 200px;
-	width: 100%;
-
-
-}
-
-#footer .virgil-logo {
-	display: block;
-	position: relative;
-	margin-left: 50%;
-	left: -36px;
-	top: 10px;
-
-
-}
