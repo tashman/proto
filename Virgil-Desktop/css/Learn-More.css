@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document for Learn More: Virgil*/
+
+body  {
+	background-color: #FFF;
+	color: #000;
+
+}
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1px;
+	visibility: hidden; 
+	margin-top: -2px;
+}
+
+h2 {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 60px;
+}
+
+.container {
+	margin: 0px,  auto;
+}
+
+
+#header {
+	position: relative;
+	width: 100%;
+}
+
+#hero-box {
+	width: 80%;
+	padding-left: 50px;	
+}
+
+#calloutcontainer {
+	margin: 0 auto;
+	display: inline-block;
+}
+.calloutbox {
+	position: relative;
+	display: inline-block;
+	height: 300px;
+	width: 330px;
+	border: 2px solid #000;
+	text-align: center;	
+	margin: 30px
+}
+
+ .calloutbox h2 {
+ 	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 36px;
+ }
+ 
+#footer {
+	margin: 0px auto;
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+	background-color: #CCC;
+	height: 35px;
+	color: #666;
+	font-family: 'Oxygen', sans serif;
+	margin-top: 100px;
+}
+#footer ul {
+margin-top: -16px; 
+}
+
+#footer li {
+	position: relative;
+	display: inline-block;
+	list-style-type:none;
+}
+
+#footer h3 {
+	font-family: 'Oxygen', sans serif;
+	font-size: 16px;
+	line-height: 35px;
+	color: #666;
+	padding-left: 120px;
+	}
+
+#footer a {
+	color: #666;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	color: #000;
+}
+
+#footer h4 {
+	font-family: 'Oxygen', sans serif;
+	font-size: 14px;
+	line-height: 35px;
+	color: #666	;
+	padding-left: 160px;
+}
+
