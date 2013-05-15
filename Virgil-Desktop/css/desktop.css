@@ -36,16 +36,19 @@ h2 {
 }
 
 #videobox {
-	width: 840px;
-	height: 480px;
+	width: 768px;
+	height: 432px;
 	margin: 0 auto;
+	border: 18px solid #2faf2f;
+	margin-bottom: 30px;
 
 }
  #videobox iframe {
 	 position: relative;
-	 width: 768px;
-	height: 432px;
-	 border: 16px solid #2faf2f;
+	 width: 736px;
+	 height: 396px;
+	 top: 16px;
+	 
  }
 
 #buttonbox {
@@ -137,14 +140,15 @@ h2 {
  }
  
  .button {
-	height: 62px;
+	height: 60px;
 	width: 130px;
 	background-color: #2faf2f;
 	font-family: 'Muli', sans-serif;
 	font-size: 22px;
+	border: 0;
 	color: #FFF;
 	text-align: center;
-	margin-top: 8px;
+	margin-top: 10px;
 	-webkit-transition: all .5s linear 0s;
 	-moz-transition: all .5s linear 0s;
 	-ms-transition: all .5s linear 0s;
