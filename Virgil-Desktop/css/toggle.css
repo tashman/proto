@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/*
+   CSS Toggle Switch originally coded by Andy McFee
+*/
+
+body{
+  font-family: 'Lato', sans serif;
+  color: white;
+}
+
+
+.slider-toggle {
+  display: none;
+  visibility: none; }
+
+.slider-button,
+.slider-content,
+.slider {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out; }
+
+.slider-viewport {
+  /* Uncomment the border-radius and border declaration to see the webkit bug in Chrome or Safari */
+  /* border-radius: 50px;  border: 5px solid green; */
+  -moz-border-radius: 50px;
+  display: block;
+  height: 100px;
+  overflow: hidden;
+  width: 300px;
+  position: relative;
+  margin: 30px auto 0;
+  cursor: pointer; }
+
+.slider {
+  height: 100%;
+  position: relative;
+  width: 200%; }
+
+.slider-button {
+  -moz-border-radius: 50px;
+  
+  background-color: #666; 
+/* main slider button color */
+
+  background-image: blue;
+  background-size: 100%;
+   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  top: 0;
+  height: 100px;
+  width: 100px;
+  cursor: pointer; }
+
+.slider-content {
+  background: red;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  height: 100%;
+  width: 250px;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  top: 10px; }
+  
+  
+  .slider-content span {
+    height: 100%;
+    line-height: 100px;
+    margin: 0 20px;
+    float: left; }
+
+.left {
+  background-color: #green;
+  /* ON button color */
+  
+  background-size: 100%;
+}
+
+.right {
+  background-color: #red;
+    /* OFF button color */
+}
+
+  .right span {
+    float: right; }
+
+.slider-toggle + .slider-viewport > .slider {
+  left: 0; }
+
+.slider-toggle + .slider-viewport .slider-button {
+  left: 200px; }
+
+.slider-toggle + .slider-viewport .slider-content {
+  width: 250px; }
+
+.slider-toggle + .slider-viewport .left {
+  margin-left: 0; }
+
+.slider-toggle:checked + .slider-viewport > .slider {
+  left: -100%; }
+
+.slider-toggle:checked + .slider-viewport .slider-button {
+  left: 300px; }
+
+.slider-toggle:checked + .slider-viewport .left {
+  margin-left: 100px; }
+
+.look .slider-toggle {
+  display: block;
+  margin: 30px auto 0; }
+.look .slider-viewport {
+  margin-top: 10px;
+  border: 4px solid orange;
+  overflow: visible; }
+.look .slider-content {
+  opacity: .6; }
+
+
+/* Checkout my related blog post: 
+http://andymcfee.com/2012/05/css3-toggle-switch-a-ui-alternative-to-checkboxes/*/
