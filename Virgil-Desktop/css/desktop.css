@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS for Desktop index  (Vigil) */
+/* CSS for Desktop index  (Virgil) */
 
 body  {
 	background-color: #FFF;
@@ -139,7 +139,7 @@ h2 {
  .button {
 	height: 62px;
 	width: 130px;
-	background-color: #a069a6;
+	background-color: #2faf2f;
 	font-family: 'Muli', sans-serif;
 	font-size: 22px;
 	color: #FFF;
