@@ -6,53 +6,63 @@ a {
 	color: #000;
 }
 
-h3 {
-	font-family: 'Lato', sans serif;
-	font-size: 18px;
-	font-weight: 200;
-	line-height: 20px;	
-	margin-left: 233px;
-	margin-top: -30px;
-}
-
 
 
 .option-box {
-	width: 400px;
+	width: 500px;
 	background-color: #FFF;
-	height: 150px;
+	height: 250px;
 	border: 4px solid #000;
 	
 }
 .option-box h2 {
+	font-family: 'Oxygen', sans serif;
 	position: relative;
-	font-size: 28px;
-	margin-left: 215px;
-	margin-top: -125px;
+	font-size: 36px;
+	margin-left: 275px;
+	margin-top: -205px;
+	color: #000;
 	
 }
 
+.option-box h3 {
+	font-family: 'Lato', sans serif;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 23px;	
+	margin-left: 300px;
+	margin-top: -25px;
+	color: #000;
+}
+
+
 .inner-option-box {
 	position: relative;
-	width: 144px;
-	height: 114px;
-	margin-top: 15px;
-	margin-left: 15px;
+	width: 197px;
+	height: 197px;
+	margin-top: 25px;
+	margin-left: 25px;
 	border: 3px solid #000;
 }
 
+.switchbox {
+	position: relative;
+	margin-left: 225px;
+	margin-top: -8px;	
+}
+
 .edit-button {
-	font-size:20px;
-	line-height: 35px;
+	font-size:28px;
+	line-height: 50px;
 	font-family: 'Lato', sans serif;
 	color: #000;
 	text-align: center;
 	position: relative;
-	height: 35px;
-	width: 180px;
+	height: 50px;
+	width: 200px;
 	background-color: grey;	
-	margin-left: 200px;
-	margin-top: 40px;
+	margin-left: 265px;
+	margin-top: -8px;
 }
 
 
