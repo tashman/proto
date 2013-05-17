@@ -6,64 +6,357 @@ a {
 	color: #000;
 }
 
-
-
-.option-box {
+.option-box { 
 	width: 500px;
 	background-color: #FFF;
-	height: 250px;
+	height: 200px;
 	border: 4px solid #000;
-	
 }
-.option-box h2 {
-	font-family: 'Oxygen', sans serif;
+
+.iconbox {
+	float: left;
+	height: 200px; 
+	width: 250px;
+}
+
+.inner-icon-box {
 	position: relative;
-	font-size: 36px;
-	margin-left: 275px;
-	margin-top: -205px;
-	color: #000;
-	
-}
-
-.option-box h3 {
-	font-family: 'Lato', sans serif;
-	font-size: 22px;
-	font-weight: 200;
-	line-height: 23px;	
-	margin-left: 300px;
-	margin-top: -25px;
-	color: #000;
-}
-
-
-.inner-option-box {
-	position: relative;
-	width: 197px;
-	height: 197px;
+	width: 146px;
+	height: 146px;
 	margin-top: 25px;
 	margin-left: 25px;
-	border: 3px solid #000;
+	border: 4px solid #000;
 }
 
 .switchbox {
-	position: relative;
-	margin-left: 225px;
-	margin-top: -8px;	
+	float: right;
+	height: 200px; 
+	width: 225px;
+	margin-right: 25px;
 }
+.textbox {
+	position: relative;
+	width: 200px;
+	text-align: center;
+	color: #000;
+	margin: 0px auto;
+	margin-right: 25px;
+	margin-top: -10px;
+}
+
+.textbox h2 {
+	position: relative;
+	font-family: 'Oxygen', sans serif;
+	font-size: 36px;
+}
+
+.textbox h3 {
+	position: relative;
+	font-family: 'Lato', sans serif;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 23px;
+	margin: 0px auto;
+	margin-top: -28px;
+	}
+
 
 .edit-button {
-	font-size:28px;
-	line-height: 50px;
-	font-family: 'Lato', sans serif;
-	color: #000;
-	text-align: center;
+	display: block;
 	position: relative;
-	height: 50px;
-	width: 200px;
-	background-color: grey;	
-	margin-left: 265px;
-	margin-top: -8px;
+	height: 40px;
+	width: 250px;
+	background-color: grey;
+	margin-left: -35px;
+	-webkit-transition: all .5s linear 0s;
+	-moz-transition: all .5s linear 0s;
+	-ms-transition: all .5s linear 0s;
+	-o-transition: all .5s linear 0s;
+	transition: all .5s linear 0s;	
+
 }
 
+.edit-button p {
+	font-size: 30px;
+	line-height: 40px;
+	font-family: 'Lato', sans serif;
+	color: #FFF;
+	margin: 0px auto;	
+	text-align: center;
+}
+
+.edit-button:hover  {
+	background-color: black;	
+}
+
+/* Radio Switch
+/* ------------------------------------------
+CSS TOGGLE SWITCHES (Ionuț Colceriu)
+Licensed under Unlicense 
+https://github.com/ghinda/css-toggle-switch
+------------------------------------------ */
+
+
+
+.switch .slide-button,
+.toggle p span {
+	display: none;
+}
+
+/* Toggle Switches */
+
+/* We can't test for a specific feature,
+ * so we only target browsers with support for media queries.
+ */
+@media only screen {
+
+	/* Checkbox
+	 */
+	.toggle {
+		position: relative;
+		padding: 0;
+		margin-left: 100px;
+	}
+
+	/* Position the label over all the elements, except the slide-button
+	 * Clicking anywhere on the label will change the switch-state
+	 */
+	.toggle label {
+		position: relative;
+		z-index: 3;
+		display: block;
+		width: 100%;
+	}
+
+.toggle-box {
+}
+	/* Don't hide the input from screen-readers and keyboard access
+	 */
+	.toggle input {
+		position: absolute;
+		opacity: 0;
+		z-index: 5;
+	}
+	
+	.toggle p {
+		position: absolute;
+		left: -100px;
+		font-family: 'Muli', sans serif;
+		width: 100%;
+		margin: 0;
+		padding-right: 100px;
+		text-align: left;
+	}
+	
+	.toggle p span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 100;
+		display: block;
+		width: 50%;
+		margin-left: 100px;
+		line-height: 40px;
+		font-size: 24px;
+		text-align: center;
+	}
+	
+	.toggle p span:last-child {
+		left: 50%;
+	}
+
+	.toggle .slide-button {
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 4;
+		
+		display: block;
+		width: 50%;
+		height: 100%;
+		padding: 0;
+	}
+
+	/* ============Toggle switch CSS ====================*/
+	
+	.switch {
+		position: relative;
+		padding: 0;
+	}
+	
+	.switch input {
+		position: absolute;
+		opacity: 0;
+	}
+	
+	.switch label {
+		position: relative;
+		z-index: 2;
+		
+		float: left;
+		width: 50%;
+		height: 100%;
+		
+		margin: 0;
+		text-align: center;
+	}
+
+	.switch .slide-button {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 0;
+		z-index: 100;
+		width: 50%;
+		height: 100%;
+	}
+
+	.switch input:last-of-type:checked ~ .slide-button {
+		left: 50%;
+	}
+
+	/* Switch with 3 items */
+	.switch.switch-three label,
+	.switch.switch-three .slide-button {
+		width: 33.3%;
+	}
+
+	.switch.switch-three input:checked:nth-of-type(2) ~ .slide-button {	
+		left: 33.3%;
+	}
+
+	.switch.switch-three input:checked:last-of-type ~ .slide-button {
+		left: 66.6%;
+	}
+	
+	/* Switch with 4 items */
+	.switch.switch-four label,
+	.switch.switch-four .slide-button {
+		width: 25%;
+	}
+
+	.switch.switch-four input:checked:nth-of-type(2) ~ .slide-button {	
+		left: 25%;
+	}
+	
+	.switch.switch-four input:checked:nth-of-type(3) ~ .slide-button {	
+		left: 50%;
+	}
+
+	.switch.switch-four input:checked:last-of-type ~ .slide-button {
+		left: 75%;
+	}
+	
+	/* Switch with 5 items */
+	.switch.switch-five label,
+	.switch.switch-five .slide-button {
+		width: 20%;
+	}
+
+	.switch.switch-five input:checked:nth-of-type(2) ~ .slide-button {	
+		left: 20%;
+	}
+	
+	.switch.switch-five input:checked:nth-of-type(3) ~ .slide-button {	
+		left: 40%;
+	}
+	
+	.switch.switch-five input:checked:nth-of-type(4) ~ .slide-button {	
+		left: 60%;
+	}
+
+	.switch.switch-five input:checked:last-of-type ~ .slide-button {
+		left: 80%;
+	}
+
+	/* Shared */
+	.toggle,
+	.switch {
+		display: block;
+		height: 40px;
+	}
+	
+	.switch *,
+	.toggle * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.switch .slide-button,
+	.toggle .slide-button {
+		display: block;
+		z-index: 20;
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-ms-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+	
+	.toggle label,
+	.toggle p,
+	.switch label {
+		line-height: 30px;
+		vertical-align: middle;
+	}
+	
+	.toggle input:checked ~ .slide-button {
+		right: 50%;
+	}
+	
+	/* Outline the toggles when the inputs are focused */
+	.toggle input:focus ~ .slide-button,
+	.switch input:focus + label {
+		outline: 1px dotted #888;
+	}
+	
+	/* Bugfix for older Webkit, including mobile Webkit. Adapted from:
+	 * http://css-tricks.com/webkit-sibling-bug/
+	 */
+	.switch, .toggle {
+		-webkit-animation: bugfix infinite 1s;
+	}
+	
+	@-webkit-keyframes bugfix { from { position: relative; } to { position: relative; } }
+
+
+	/* Candy Theme
+	 * Based on the "Sort Switches / Toggles (PSD)" by Ormal Clarck
+	 * http://www.premiumpixels.com/freebies/sort-switches-toggles-psd/
+	 */
+	 
+	.candy {
+		background-color: #000;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+		border-radius: 3px;	
+		
+	}
+
+	.candy input:checked + label {
+		color: #333;
+		text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	}
+		
+	.candy .slide-button {
+	background-color: #2faf2f;
+	z-index: 10;
+	}
+
+	.candy p {
+		color: #333;
+		text-shadow: none;
+	}
+
+	.candy span {
+		color: #fff;
+			z-index: 1;
+	}
+
+	
 
 
