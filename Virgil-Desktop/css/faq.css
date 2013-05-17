@@ -9,6 +9,8 @@ p {
 
 .faqheader {
 	margin-left: 50px;
+	margin-top: -20px;
+	margin-bottom: -20px;
 }
 
 .faqheader h2{
@@ -17,8 +19,8 @@ p {
 }
 
 .faqbox {
-	width: 80%;
-	margin-left: 25px;
+	width: 90%;
+	margin-left: 75px;
 }
 
 #titlebox h1 {
