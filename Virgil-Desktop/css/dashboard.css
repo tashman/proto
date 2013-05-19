@@ -141,209 +141,77 @@ background-color:#7186c3; !important;
 	background-color: #8a26a2; !important;
 	
 }
-/* Radio Switch
-/* ------------------------------------------
-CSS TOGGLE SWITCHES (Ionuț Colceriu)
-Licensed under Unlicense 
-https://github.com/ghinda/css-toggle-switch
------------------------------------------- */
 
 
+/*-------------ON/OFF Switch------------------*/
 
-.switch .slide-button,
-.toggle p span {
-	display: none;
+.onoffswitch {
+	margin: 8px 0px;
+    position: relative; 
+	width: 250px;
+	left: -35px;
+    -webkit-user-select:none;
+	 -moz-user-select:none; 
+	 -ms-user-select: none;
 }
-
-/* Toggle Switches */
-
-/* We can't test for a specific feature,
- * so we only target browsers with support for media queries.
- */
-@media only screen {
-
-	/* Checkbox
-	 */
-	.toggle {
-		position: relative;
-		padding: 0;
-		width: 250px;
-		margin-left: -35px;
-		margin-top: 9px;
-		margin-bottom: 9px
-		
-
-	}
-
-	/* Position the label over all the elements, except the slide-button
-	 * Clicking anywhere on the label will change the switch-state
-	 */
-	.toggle label {
-		position: relative;
-		z-index: 3;
-		display: block;
-		width: 100%;
-	}
-
-	/* Don't hide the input from screen-readers and keyboard access
-	 */
-	.toggle input {
-		position: absolute;
-		opacity: 0;
-		z-index: 5;
-	}
-	
-	.toggle p {
-		position: absolute;
-		left: -100px;
-		font-family: 'Muli', sans serif;
-		width: 100%;
-		margin: 0;
-		padding-right: 100px;
-		text-align: left;
-	}
-	
-	.toggle p span {
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: 100;
-		display: block;
-		width: 50%;
-		margin-left: 100px;
-		line-height: 40px;
-		font-size: 24px;
-		text-align: center;
-	}
-	
-	.toggle p span:last-child {
-		left: 50%;
-	}
-
-	.toggle .slide-button {
-		position: absolute;
-		right: 0;
-		top: 0;
-		z-index: 4;
-		
-		display: block;
-		width: 50%;
-		height: 100%;
-		padding: 0;
-	}
-
-	/* ============Toggle switch CSS ====================*/
-	
-	.switch {
-		position: relative;
-		padding: 0;
-	}
-	
-	
-	.switch label {
-		position: relative;
-		z-index: 2;
-		float: left;
-		width: 50%;
-		height: 100%;
-		margin: 0;
-		text-align: center;
-	}
-
-	.switch .slide-button {
-		position: absolute;
-		top: 0;
-		left: 0;
-		padding: 0;
-		z-index: 100;
-		width: 50%;
-		height: 100%;
-	}
-
-	.switch input:last-of-type:checked ~ .slide-button {
-		left: 50%;
-	}
-
-	
-	/* Shared */
-	.toggle,
-	.switch {
-		display: block;
-		height: 40px;
-	}
-	
-	.switch *,
-	.toggle * {
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-ms-box-sizing: border-box;
-		-o-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-	
-	.switch .slide-button,
-	.toggle .slide-button {
-		display: block;
-		z-index: 20;
-		-webkit-transition: all 0.3s ease-out;
-		-moz-transition: all 0.3s ease-out;
-		-ms-transition: all 0.3s ease-out;
-		-o-transition: all 0.3s ease-out;
-		transition: all 0.3s ease-out;
-	}
-	
-	.toggle label,
-	.toggle p,
-	.switch label {
-		line-height: 30px;
-		vertical-align: middle;
-	}
-	
-	.toggle input:checked ~ .slide-button {
-		right: 50%;
-	}
-	
-
-	
-	/* Bugfix for older Webkit, including mobile Webkit. Adapted from:
-	 * http://css-tricks.com/webkit-sibling-bug/
-	 */
-	.switch, .toggle {
-		-webkit-animation: bugfix infinite 1s;
-	}
-	
-	@-webkit-keyframes bugfix { from { position: relative; } to { position: relative; } }
-
-
-	/* Candy Theme
-	 * Based on the "Sort Switches / Toggles (PSD)" by Ormal Clarck
-	 * http://www.premiumpixels.com/freebies/sort-switches-toggles-psd/
-	 */
-	 
-	.candy {
-		font-family: 'Muli', sans serif;
-		background-color: #000;
-		color: #fff;
-		font-weight: bold;
-		text-align: center;
-		
-	}
-
-		
-	.candy .slide-button {
-	background-color: #2faf2f;
-	z-index: 10;
-	}
-
-	.candy p {
-		color: #333;
-		text-shadow: none;
-	}
-	.candy span {
-		color: #fff;
-		z-index: 1;
-	}
-
-	
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; 
+	overflow: hidden; 
+	cursor: pointer;
+}
+.onoffswitch-inner {
+    width: 200%; 
+	margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s;
+	 -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; 
+	transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    float: left; 
+	width: 50%; 
+	height: 40px; 
+	padding: 0; 
+	line-height: 40px;
+    font-size: 21px; 
+	color: white; font-family: 'Muli', sans-serif; 
+	font-weight: bold;
+    -moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 14px;
+    background-color: #090; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 14px;
+    background-color: #FF0000; color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    width: 23px; 
+	margin: 9px;
+    background: #FFFFFF;
+    position: absolute; 
+	top: 0; 
+	bottom: 0; 
+	right: 206px;
+    -moz-transition: all 0.3s ease-in 0s;
+	 -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s; 
+	transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
 
 
