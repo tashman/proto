@@ -29,7 +29,7 @@ h3 {
 	font-family: 'Oxygen', sans serif;
 	color: #000;
 	font-size: 24pt;
-	line-height: 32px;
+	line-height: 36px;
 
 }
 
@@ -49,18 +49,16 @@ h3 {
 
 
 #bigbutton {
+	background:url('../images/NO.png');
 	position: relative;
 	width: 250px;
 	height: 250px;
-	border-radius: 125px;
-	background-color: #7186c3;
-	margin-top: -25px;
+	margin-top: 25px;
 	margin-left: 50%;
 	left: -125px;
 }
 
 
-#bigbutton:hover {background-color: #000;}
 
 #alertbox {
 	width: 100%;
