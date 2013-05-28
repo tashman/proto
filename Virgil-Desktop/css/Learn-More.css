@@ -19,8 +19,8 @@ h1 {
 
 h2 {
 	font-family: 'Varela Round', sans-serif;
-	font-size: 50px;
-	line-height: 20px;
+	font-size:40px;
+	line-height: 40px;
 }
 
 h3 {
@@ -34,7 +34,9 @@ h3 {
 }
 
 .container {
-	margin: 0px,  auto;
+	margin: 0px auto;
+	position: relative;
+	top: 100px;
 }
 
 
@@ -44,16 +46,20 @@ h3 {
 }
 
 #hero-box {
+	position: relative;
 	width: 90%;
 	padding-left: 50px;	
+	top: 60px;
 }
 
 
 
 
  #content-box {
+	 position: relative;
 	 width: 90%;
 	margin-left: 75px;
+	top: 60px;
 	 
  }
   #content-box h2 {
@@ -61,50 +67,4 @@ h3 {
 	  font-weight:400;
   }
  
- 
-#footer {
-	margin: 0px auto;
-	display: inline-block;
-	text-align: left;
-	width: 100%;
-	background-color: #CCC;
-	height: 35px;
-	color: #666;
-	font-family: 'Oxygen', sans serif;
-	margin-top: 100px;
-}
-#footer ul {
-margin-top: -16px; 
-}
-
-#footer li {
-	position: relative;
-	display: inline-block;
-	list-style-type:none;
-}
-
-#footer h3 {
-	font-family: 'Oxygen', sans serif;
-	font-size: 16px;
-	line-height: 35px;
-	color: #666;
-	padding-left: 120px;
-	}
-
-#footer a {
-	color: #666;
-	text-decoration: underline;
-}
-
-#footer a:hover {
-	color: #000;
-}
-
-#footer h4 {
-	font-family: 'Oxygen', sans serif;
-	font-size: 14px;
-	line-height: 35px;
-	color: #666	;
-	padding-left: 160px;
-}
 
