@@ -1,12 +1,6 @@
 @charset "UTF-8";
 /* header/footer CSS stylesheet for Virgil: Desktop by Dan Tashman */
-body { 
-	background: url('../images/footer-bgd.png');
-	display: block;
-	background-position: center;
-	background-attachment: fixed;
-	
-}
+
 
 .master-header {
 	position: fixed;
