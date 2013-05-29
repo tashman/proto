@@ -27,6 +27,7 @@ h3 {
 	font-family: 'Muli', sans-serif;
 	font-size: 19pt;
 	line-height: 23px;
+	font-weight:300;
 	top: 85px;
 }
 
@@ -34,6 +35,7 @@ h4 {
 	font-family: 'Muli', sans-serif;
 	font-size: 16pt;
 	line-height: 18px;
+	font-weight:300;
 	top: 85px;
 }
 
