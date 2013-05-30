@@ -3,12 +3,16 @@
 
 @charset "UTF-8";
 /* CSS stylesheet for Virgil: Forms.css by Dan Tashman */
-body  {
-	background-color: #FFF;
+body { 
+	background: url('../images/footer-bgd.png');
+	display: block;
+	background-position: center;
+	background-attachment: fixed;
 	text-align: center;
 	color: #000;
-
 }
+
+
 a {
 	text-decoration: none;
 }

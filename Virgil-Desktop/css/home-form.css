@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* CSS stylesheet for Virgil: Forms.css by Dan Tashman */
+/* CSS Styleheet for Virgil: Desktop "Take Me Home''page by Dan Tashman */
+
 body { 
 	background: url('../images/footer-bgd.png');
 	display: block;
@@ -22,15 +23,14 @@ h2 {
 	font-family: 'Muli', sans-serif;
 	font-size: 36pt;
 	line-height: 36px;
-	font-weight: 300;
+	font-weight:300;
 }
 
 h3 {
 	font-family: 'Muli', sans-serif;
 	font-size: 19pt;
-	line-height: 23px;
 	top: 85px;
-	font-weight: 300;
+	font-weight:300;
 }
 
 h4 {
@@ -38,7 +38,7 @@ h4 {
 	font-size: 16pt;
 	line-height: 18px;
 	top: 85px;
-	font-weight: 200;
+	font-weight:200;
 }
 
 h5 { 
@@ -47,7 +47,7 @@ h5 {
 	text-align: center;
 	line-height: 50px;
 	padding-top: 6px;
-	font-weight: 200;
+	font-weight:200;
 
 }
 
@@ -73,23 +73,21 @@ h5 {
 .formbox-wrapper h4 {
 	float: left;
 	padding-top: 8px;
-
 }
 
 
-
  .formbox {
-	 float: right;
+	 float: left;
 	 font-family: 'Muli', sans serif;
 	 display: inline-block;
-	 width: 350px;
+	 width: 500px;
 	 height: 50px;
 	 color: #333;
 	 font-size: 22px;
 	 font-align: left;
 	 margin: 10px;
 	 padding-left: 5px;
-	 border: 4px solid #2faf2f;
+	 border: 4px solid  #7186c3;
  }
  
   .formbox:active {
@@ -113,19 +111,16 @@ h5 {
 		font-size: 11pt;
   }
   
-  
-  
   .button {
 	 position: relative;
 	height: 60px;
-	width: 300px;;
-	background-color: #2faf2f;
+	width: 300px;
+	background-color:  #7186c3;
 	font-family: 'Muli', sans-serif;
 	font-size: 22px;
 	border: 0;
 	color: #FFF;
 	text-align: center;
-	margin-top: 10px;
 	-webkit-transition: all .5s linear 0s;
 	-moz-transition: all .5s linear 0s;
 	-ms-transition: all .5s linear 0s;
@@ -136,7 +131,6 @@ h5 {
    .button:hover {
 	   background-color: #000;
    }
-   
 
  
  .buttonbox {	
@@ -151,3 +145,32 @@ h5 {
  .clear {
 	clear: both; 
  }
+ 
+ #previewbox {
+	 width: 600px;
+	 height: 300px;
+	 background-color: #FFF;
+	 border: 8px solid  #7186c3;
+	 margin-top: 20px;
+	 margin-left: 80px;
+	 margin-bottom: 50px;
+	 
+ }
+ 
+ .directionsbox {
+	position: relative;
+	margin: 20px  auto;
+	width: 940px;
+	height: 320px;
+	display: block;
+	border: 3px solid #7186c3;
+	background-color: #FFF;
+
+}
+ .directionsbox h4 {
+	margin-left: 4%;
+	margin-right: 4%;
+	font-size: 18pt;
+	line-height: 24pt;
+	margin-top: -10px;
+	 }
