@@ -10,6 +10,7 @@
  <link href='http://fonts.googleapis.com/css?family=Lato|Muli|Oxygen|Roboto|Varela+Round' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/desktop.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/header-footer.css" type="text/css" media="screen">
   
  
  
@@ -54,29 +55,32 @@
             <div id="loginbox">
             
                     <form>
-                    <input type="text" name="username" class="formbox" placeholder=" username">
+                    <input type="text" name="index-username" class="formbox" placeholder=" username">
                     </form>
                     
                     <form>
-                    <input type="password" name="password" class="formbox" placeholder=" password">
+                    <input type="password" name="index-password" class="formbox" placeholder=" password">
                     </form>
                     
-              <input type="submit" class="button" value="Login">
+              <input type="submit" class="button" name="index-login" value="Login">
             
       </div> <!--end loginbox-->
          
             
     </div><!--end container-->
     
-    <div id="footer">
-    
-            <ul>
-                    <li><h3>©2013 <a href="http://www.about.me/dantashman">Dan Tashman</a></h3></li>
-                    <li><h4><a href="#">FAQ's</a></h4></li>
-                    <li><h4><a href="#">About/Contact</a></h4></li>
-                    <li><h4><a href="#">Virgil en Espanol</a></h4></li>
-            </ul>
-   	</div> <!--end footer-->
+
+<div class="master-footer">
+	<ul>
+            <li><h5>©2013<a href="http://www.about.me/dantashman" target="_blank"> Dan Tashman</a></h5></li>
+            <li><a href="index.html"><img src="images/house.png" width="32" height="32" alt="home-icon" /></a></li>
+           <li><h6><a href="FAQ.html">FAQ's</a></h6></li>
+           <li><h6><a href="about.html">About/Contact</h6></a></li>
+           <li><h6><a href="espanol.html">Virgil en Espanol</h6></a></li>
+         
+     </ul>
+</div> 
+<!--end master footer-->
     
 </body>
 </html>
