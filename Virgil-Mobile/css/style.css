@@ -9,7 +9,8 @@
 	margin: 0px auto;
 	text-align:center;
 	color: #FFF;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Muli', sans serif;
+	font-weight: 300;
 	
 }
 
@@ -25,7 +26,8 @@ h1 {
 }
 
 h2 { 
-	font-family: 'Muli', sans serif;
+font-family: 'Muli', sans serif;
+	font-weight: 300;
 	text-align: center;
 	margin-top: -18px;
 	margin-bottom: -5px;

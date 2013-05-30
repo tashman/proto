@@ -7,7 +7,6 @@ body {
 	background-attachment: fixed;
 	height: 480px;
 	width: 100%;
-	font-family: 'Muli', sans serif;
 }
 
 .frame {
@@ -32,15 +31,20 @@ h1 {
 }
 
 h2 { 
-font-family: 'Muli', sans serif;
+	font-family: 'Muli', sans serif;
+	font-weight: 300;
 	color: #000;
 	font-size: 16pt;
 }
 
 h3 {
 	font-family: 'Muli', sans serif;
-	color: #999;
-	font-size: 14pt;
+	font-weight: 300;
+	color: #666;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 24px;
+	font-size: 18pt;
 
 }
 
@@ -57,19 +61,22 @@ h3 {
 	margin-top: 75px;}
 
 .input-box {
-width: 80%;
-margin-bottom: 20px;
-line-height: 24px;
-font-family: 'Muli', sans serif;
-font-size: 20px;
-border: solid 1px #999;
-margin-right: 20px;
+	height: 40px;
+	width: 200px;
+	width: 80%;
+	margin-bottom: 20px;
+	line-height: 24px;
+	font-family: 'Oxygen', sans serif;
+	font-weight: 300;
+	font-size: 20px;
+	border: solid 3px #2faf2f;
+	margin-right: 20px;
 
 }
 
 .input-button {
-	     background-color:#7186c3;
-       border:1px solid #7186c3;
+	   background-color:#2faf2f;
+	   border: 1px solid #2faf2f;
        display:inline-block;
         color:#000;
         font-family: 'Lato', sans serif;

@@ -18,7 +18,7 @@ a {
 	margin: 0px,  auto;
 	text-align:center;
 	color: #000;
-	font-family: 'Lato', sans serif
+	font-family: 'Muli', sans serif
 	
 }
 
@@ -30,6 +30,8 @@ h1 {
 }
 
 h2 { 
+font-family: 'Muli', sans serif;
+	font-weight: 300;
 	text-align: center;
 	font-size: 32pt;
 	margin-top: auto;
@@ -37,13 +39,15 @@ h2 {
 }
 
 h3 {
-	font-family: 'Lato', sans serif;
+	font-family: 'Muli', sans serif;
+	font-weight: 300;
 	font-size: 18pt;
 }
 
 h5 { 	
 	position: relative;
-	font-family: 'Lato', sans serif;
+	font-family: 'Muli', sans serif;
+	font-weight: 200;
 	font-size: 28px;
 	line-height: 14px;
 	text-align: center;
