@@ -51,22 +51,20 @@ h5 {
 
 }
 
-.container {
-	margin: 0px,  auto;
-}
+
 
 .formbox-wrapper {
+	position: relative;
 	width: 700px;
 	height: 50px;
-	margin-left: 30px;
+	margin-left: 200px;
+	text-align: center;
+
 	
 }
 
 .formbox-wrapper h3 {
-	float: left;
-	position: relative;
-	top: 5px;
-	text-align: center;
+	margin-top: 15px;
 
 }
 
@@ -80,7 +78,7 @@ h5 {
 	 float: left;
 	 font-family: 'Muli', sans serif;
 	 display: inline-block;
-	 width: 500px;
+	 width: 520px;
 	 height: 50px;
 	 color: #333;
 	 font-size: 22px;
@@ -114,7 +112,7 @@ h5 {
   .button {
 	 position: relative;
 	height: 60px;
-	width: 300px;
+	width: 280px;
 	background-color:  #7186c3;
 	font-family: 'Muli', sans-serif;
 	font-size: 22px;
@@ -135,9 +133,8 @@ h5 {
  
  .buttonbox {	
  	position: relative;
- 	display: inline;
- 	margin-left: -420px;
- }
+ 	display: inline-block;
+	 }
  
   .buttonbox  .button {	
  	margin: 20px;
@@ -147,12 +144,14 @@ h5 {
  }
  
  #previewbox {
+	 position: relative;
 	 width: 600px;
 	 height: 300px;
 	 background-color: #FFF;
 	 border: 8px solid  #7186c3;
 	 margin-top: 20px;
-	 margin-left: 80px;
+	 margin-left: 50%;
+	 left: -300px;
 	 margin-bottom: 50px;
 	 
  }
@@ -161,12 +160,22 @@ h5 {
 	position: relative;
 	margin: 20px  auto;
 	width: 940px;
-	height: 320px;
+	height: 340px;
 	display: block;
 	border: 3px solid #7186c3;
 	background-color: #FFF;
 
 }
+
+.directionsbox h3 {
+	text-align: center;
+	margin-left: 45%;
+	font-size: 22pt;
+	line-height: 12pt;
+	top: 10px;
+
+	 }
+	 
  .directionsbox h4 {
 	margin-left: 4%;
 	margin-right: 4%;

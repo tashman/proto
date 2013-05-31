@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Virgil: Places Form</title>
+<title>Virgil: Take Me Home</title>
 
 <meta name="description" content="Virgil: A Simple Mobile UI. Important Places/Locations.">
 <meta name="keywords" content="Virgil, Mobile, User Interface, UI, simple phone layout, special needs technology, info, profile, basic info">
@@ -19,10 +19,11 @@
 	top: 22px;
  }
  .master-footer {
-	margin-top: 50px; 
+	margin-top: 1100px; 
  }
  
- #master-formbox {
+ #container {
+	 position: absolute;
 	margin: 80px auto;	
 }
 
@@ -44,16 +45,16 @@
 </div> <!--end master header-->
           
                     <!-- -------------------FORMBOX------------------->
- <div id="master-formbox">
+ <div id="container">
      
             <div class="formbox-wrapper">
                      <h3>Home address</h3>
                     <input type="text" name="home-address" class="formbox" placeholder=" ex. '34 Valley Road, Walla Walla, WA 83845'">
                     </form>
                     <br />
-             </div> <!--end formbox-wrapper-->
-             
-              <div class="clear"></div>                  
+             </div><!-- end "formbox-wrapper-->
+          
+                 
   
       <!-- -------------------buttons------------------->
          
@@ -77,23 +78,19 @@
          <!-----------------------------Directions------------------------------>
  
  
-<div class="directionsbox">
-		<h3>Directions</h3>
-        <h4>"Take Me Home' will immediately produce a Google Map from your current location, to the one entered in the form above.</h4>
-        <h4>By entering your home address, you will always have the ability to find your way home with a single button push.</h4>
-        <h4>Use the preview button to confirm your address, then press 'SAVE' to imprint it on the mobile app.</h4>
-        
-</div> <!--end directionsbox-->
+    <div class="directionsbox">
+            <h3>Directions</h3>
+            <h4>"Take Me Home' will immediately produce a Google Map from your current location, to the one entered in the form above.</h4>
+            <h4>By entering your home address, you will always have the ability to find your way home with a single button push.</h4>
+            <h4>Use the preview button to confirm your address, then press 'SAVE' to imprint it on the mobile app.</h4>
+    </div> <!--end directionsbox-->
 
 
 
           <!-- -------------------FOOTER------------------->
 
-         </div>
-         </div>
-         </div>
-         </div>
-         </div>
+         </div> <!--end container-->
+         
          
          <div class="master-footer">
 	<ul>
