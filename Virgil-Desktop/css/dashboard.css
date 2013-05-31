@@ -128,35 +128,37 @@ a {
 	}
 
 .directionsbox {
-	position: relative;
-	margin: 20px  auto;
+	position:absolute;
+	margin: 100px  auto;
 	width: 940px;
 	height: 250px;
 	display: block;
 	border: 3px solid #2faf2f;
 	background-color: #FFF;
-	top: 780px;
+	top: 760px;
+	margin-left: 50%;
+	left: -470px;
+
+	
 }
 
 .directionsbox h2 {
 	position: relative;
-	bottom: 720px;
 	text-align: center;
 	font-family: 'Lato', sans serif;
 	font-size: 28pt;
-	margin: 11px 10px;
+	margin: 12px 10px;
 	font-weight:300;
 }
 
 
 .directionsbox h3,h4 {
 	position: relative;
-	bottom: 720px;
 	text-align: center;
 	font-family: 'Lato', sans serif;
 	font-size: 18pt;
 	margin: 4px 10px;
-	font-weight:300;
+	font-weight:200;
 	
 }
 
