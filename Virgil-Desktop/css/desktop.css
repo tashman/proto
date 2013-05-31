@@ -1,11 +1,14 @@
 @charset "UTF-8";
 /* CSS Stylesheet desktop/index  for Virgil by Dan Tashman*/
 
-body  {
-	background-color: #FFF;
+body { 
+	background: url('../images/footer-bgd.png');
+	display: block;
+	background-position: center;
+	background-attachment: fixed;
 	text-align: center;
 	color: #000;
-
+	
 }
 a {
 	text-decoration: none;
@@ -57,6 +60,7 @@ h4 {
 	width: 768px;
 	height: 432px;
 	margin: 0 auto;
+	background-color: #FFF;
 	border: 18px solid #2faf2f;
 	margin-bottom: 30px;
 
@@ -83,14 +87,16 @@ h4 {
 #Learn_More_box {
 	height: 100px;
 	width: 380px;
-	border: 4px solid #ed1a4d;
+	background-color: #FFF;
+	border: 4px solid #2faf2f;
 	margin-left: 1px;
 }
 
 #Sign_Up_box {
 	height: 100px;
 	width: 380px;
-	border: 4px solid #7186c3;
+	background-color: #FFF;
+	border: 4px solid #2faf2f;
 	margin-left: 419px;
 	margin-top: -107px;
 
@@ -119,7 +125,7 @@ h4 {
 }
 
 #redbox:hover {
-	background-color: #d27c00;
+	background-color: #000;
 }
 
 #bluebox {
@@ -139,7 +145,7 @@ h4 {
 }
 
 #bluebox:hover {
-	background-color: #a069a6;
+	background-color: #000;
 }
 
 
@@ -176,5 +182,5 @@ h4 {
  
  
 .button:hover {
-	background-color: #9966CC;
+		background-color: #000;
 }
