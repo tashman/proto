@@ -2,12 +2,16 @@
 @charset "UTF-8";
 /* CSS stylesheet for Virgil: video.css by Dan Tashman */
 
-body  {
-	background-color: #FFF;
+
+body { 
+	background: url('../images/footer-bgd.png');
+	display: block;
+	background-position: center;
+	background-attachment: fixed;
 	text-align: center;
 	color: #000;
-
 }
+
 a {
 	text-decoration: none;
 }
@@ -48,14 +52,11 @@ h5 {
 
 }
 
-.container {
-	margin: 0px,  auto;
-}
 
 .formbox-wrapper {
 	width: 700px;
 	height: 50px;
-	margin-left: 30px;
+	margin: 0px auto;
 	
 }
 
@@ -76,7 +77,7 @@ h5 {
 	 float: left;
 	 font-family: 'Muli', sans serif;
 	 display: inline-block;
-	 width: 500px;
+	 width: 633px;
 	 height: 50px;
 	 color: #333;
 	 font-size: 22px;
@@ -120,9 +121,9 @@ h5 {
 
  
  .buttonbox {	
+ 	margin: 0px auto;
  	position: relative;
  	display: inline;
- 	margin-left: -420px;
  }
  
   .buttonbox  .button {	
@@ -131,3 +132,45 @@ h5 {
  .clear {
 	clear: both; 
  }
+ 
+ 
+.directionsbox {
+	margin: 50px auto;
+	width: 940px;
+	height: 330px;
+	display: block;
+	border: 3px solid #8a26a2;	
+	background-color: #FFF;
+	text-align: center;
+}
+
+.directionsbox h2 {
+	position: relative;
+	font-family: 'Lato', sans serif;
+	font-size: 28pt;
+	margin: 2px 10px;
+	font-weight:300;
+	padding-top: 20px;
+}
+
+.directionsbox h3,h4 {
+	font-family: 'Lato', sans serif;
+	padding-top: 20px;
+	font-size: 18pt;
+	line-height: 27px;
+	margin: 4px 10px;
+	font-weight:200;
+	
+}
+
+ #previewbox {
+	 width: 600px;
+	 height: 300px;
+	 background-color: #FFF;
+	 border: 8px solid #8a26a2;	
+	margin: 20px auto;
+ }
+ 
+  #previewbox iframe{
+	  margin-top: 8px;
+  }

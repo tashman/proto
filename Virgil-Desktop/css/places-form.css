@@ -96,23 +96,7 @@ h5 {
 	color: #000;
 	font-weight: 600;
   }
-  
-#imagearea {
-	margin-left: 30px;
-}
-  
-  #imagearea h3 {
-		text-align: left;  
-		margin-top: 10px;
-		font-size: 14pt;
-  }
-  
-    #imagearea h4 {
-		text-align: left;  
-		margin-top: 10px;
-		font-size: 11pt;
-  }
-  
+
   
   
   .button {
@@ -178,7 +162,4 @@ h5 {
 	 margin-top: 20px;
 	 margin-left: 80px;
 	 margin-bottom: 50px;
-	 
-	 
-	 
  }
