@@ -58,7 +58,7 @@ h5 {
 .formbox-wrapper {
 	width: 700px;
 	height: 50px;
-	margin-left: 30px;
+	margin: 0px auto;
 	
 }
 
@@ -100,7 +100,7 @@ h5 {
   
   
   .button {
-	 position: relative;
+	position: relative;
 	height: 60px;
 	width: 300px;;
 	background-color: #F90;
@@ -120,13 +120,11 @@ h5 {
    .button:hover {
 	   background-color: #000;
    }
-   
 
  
  .buttonbox {	
- 	position: relative;
  	display: inline;
- 	margin-left: -420px;
+
  }
  
   .buttonbox  .button {	
@@ -136,12 +134,17 @@ h5 {
 	clear: both; 
  }
  
- 
+ #place-preview-box {
+	margin: 0px auto;
+	display: inline; 
+ }
  .placelist {
+	 float: left;
 		width: 350px;
 		height: 60px;
 		margin: 0px;
 		border: 4px solid #F90; 
+		background-color: #FFF;
 		margin-bottom: -4px;
  }
  
@@ -155,6 +158,7 @@ h5 {
  }
  
  #previewbox {
+	 float: left;
 	 width: 600px;
 	 height: 300px;
 	 background-color: #FFF;

@@ -18,17 +18,11 @@
 	background-color: #F90; 
 	top: 22px;
  }
- .master-footer {
-	margin-top: 100px; 
- }
- 
- #master-formbox {
-	margin: 120px auto;	
-}
+ .master-footer {margin-top: 100px; }
+ #master-formbox {position: relative; margin: 120px auto;}
+.master-header h2 {top: 0px;}
+.master-header h3 {padding-top: 5px;}
 
-.master-header h2, h3 {
-	top: -10px;
-}
  </style>
 </head>
 
@@ -76,19 +70,16 @@
             	<input type="submit" class="button" value="Preview">
 
               				<input type="submit" class="button" value="Save">
-    
-         <!--end buttonbox-->
+                           
          
              <!-- -------------------PREVIEW AREA------------------->
              
-             
-             
+   <div id="place-preview-box ">
+   
+ 
              <div id="previewbox">
              <iframe width="584" height="284" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=171+west+street+white+plains+ny&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=6.018244,9.063721&amp;ie=UTF8&amp;hq=&amp;hnear=171+West+St,+White+Plains,+Westchester,+New+York+10605&amp;t=m&amp;ll=40.991755,-73.74238&amp;spn=0.011921,0.050039&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
              </div> <!--end previewbox-->
-             
-             
-             
              
                 <!-- -------------------PLACES LIST------------------->
          
@@ -98,9 +89,10 @@
          <div class="placelist"><h3>Place #4</h3></div>
          <div class="placelist"><h3>Place #5</h3></div>
          
-         
+ </div> <!--end  place-preview-box   --> 
+ 
+ 
           <!-- -------------------FOOTER------------------->
-          
           
          </div>
          </div>
