@@ -134,15 +134,70 @@ h5 {
 	clear: both; 
  }
  
- #place-preview-box {
-	margin: 0px auto;
-	display: inline; 
+  .preview-list-box {
+	margin: 30px auto;	 
  }
+ 
+  .place-preview-box {
+	  position: relative;
+	  margin-left: 100px;
+ }
+ 
+  .list-preview-box {
+	  	  position: relative;
+ }
+ 
+ .edit-checkbox {
+	 position: relative;	
+	height: 58px;
+	width: 58px;
+	top: -82px;
+	left: 320px; 
+	
+ }
+ 
+  .delete-checkbox {
+	 position: relative;	
+	height: 58px;
+	width: 58px;
+	top: -142px;
+	left: 380px; 
+ }
+ 
+ .place-edit-sprite {
+	 position: relative;
+	 display: block;
+	background: url('../images/place-control-sprite.png') no-repeat -1px 0;
+	width: 46px;
+	height: 46px;
+	top: 7px;
+	left: 7px;
+}
+
+ .place-edit-sprite:hover {
+background: url('../images/place-control-sprite2.png') no-repeat -1px 0;
+ }
+ 
+ .place-delete-sprite {
+	position: relative;
+	display: block;
+	background: url('../images/place-control-sprite.png') no-repeat -48px 0;
+	width: 46px;
+	height: 46px;
+	top: 9px;
+	left: 7px;
+
+}
+
+ .place-delete-sprite:hover  {
+	 background: url('../images/place-control-sprite2.png') no-repeat -48px 0;
+ }
+
  .placelist {
 	 float: left;
-		width: 350px;
+		width: 440px;
 		height: 60px;
-		margin: 0px;
+		margin: 16px 8px;
 		border: 4px solid #F90; 
 		background-color: #FFF;
 		margin-bottom: -4px;
@@ -159,11 +214,9 @@ h5 {
  
  #previewbox {
 	 float: left;
-	 width: 600px;
-	 height: 300px;
+	 width: 500px;
+	 height: 360px;
 	 background-color: #FFF;
 	 border: 8px solid #F90;
-	 margin-top: 20px;
-	 margin-left: 80px;
-	 margin-bottom: 50px;
+	 margin: 10px 40px;
  }
