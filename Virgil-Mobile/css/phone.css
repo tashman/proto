@@ -13,7 +13,7 @@ body {
 	height: 100%;
 	color: #FFF;
 	font-family: 'Muli', sans serif;
-	font-weight: 300;
+	font-weight: 200;
 	
 }
 
@@ -66,8 +66,12 @@ h3 {
 	display: inline-block;
 	border: solid 3px #FFF;
 	z-index: 10;
-	
 }
+
+.phonebar h3 {
+	line-height: 40px;
+}
+
 .placebar:hover {background-color: #000;}
 
 #spacer {
