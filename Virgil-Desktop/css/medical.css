@@ -120,15 +120,17 @@ h5 {
   
   
   .button {
+	  float: left;
 	height: 60px;
 	width: 300px;;
 	background-color: #ed1a4d;
 	font-family: 'Muli', sans-serif;
 	font-size: 22px;
 	border: 0;
-	color: #FFF;
+	color: #FFF; 
 	text-align: center;
 	margin-top: 10px;
+	margin-left: 20px;
 	-webkit-transition: all .5s linear 0s;
 	-moz-transition: all .5s linear 0s;
 	-ms-transition: all .5s linear 0s;
@@ -142,14 +144,9 @@ h5 {
   
  
  .buttonbox {	
- 	position: absolute;
-	margin: 0 0;
  
  }
  
-  .buttonbox  .button {	
- 	margin: 20px;
- }
  .clear {
 	clear: both; 
  }

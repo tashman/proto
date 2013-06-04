@@ -16,11 +16,11 @@
 <style>
 .bumper {
 	background-color: #ed1a4d;	
-	top: 25px;
 	border: 1px solid #ed1a4d;
+	top: 22px;
 	}
 #master-formbox {margin: 100px auto;}
-.master-footer {margin-top: 60px; border : 1px solid #ed1a4d;}
+.master-footer {margin-top: 100px; border : 1px solid #ed1a4d;}
 </style>
  
 </head>
@@ -61,10 +61,10 @@
                         
                 <div class="formbox-wrapper">
                          <h3>Emergency Contact </h3>
-                        <input type="text" name="ec-name" class="formbox" placeholder=" ex. 'Mary', 'Mom', 'Dr. Jones'">
+                        <input type="text" name="ec_name" class="formbox" placeholder=" ex. 'Mary', 'Mom', 'Dr. Jones'">
                         </form>
                          <h3>Emergency Contact #</h3>
-                        <input type="text" name="ec-number" class="formbox" placeholder=" ex. 212-555-1212">
+                        <input type="text" name="ec_number" class="formbox" placeholder=" ex. 212-555-1212">
                         </form>
                         <br />
                  </div> <!--end formbox-wrapper-->
@@ -101,26 +101,20 @@
                         <input type="checkbox" id="medical-image" class="regular-checkbox big-checkbox" /><label for="checkbox-2-1"></label>
             			<h4>Check here to display your <a href="Basic-Info-Form.html">Basic Info</a> image</h4>
 		</div> <!--end checkbox holder-->
-                
-                
-         <!---------------------buttons------------------->
+                             
+         <!---------------------buttons------------------->      
+         
+                          
+                 <div class="buttonbox">
+                 
+                        <input type="submit" class="button" name="medical-edit" value="Edit">
+        
+                        <input type="submit" class="button" name="medical-submit" value="Save">
                         
-                        
-            	<input type="submit" class="button" value="Edit">
-
-              	<input type="submit" class="button" value="Save">
-    
-         <!--end buttonbox-->
+    			</div> <!--end buttonbox-->
          
     		<!--------------Footer ------------------>
-         
-         </div>
-         </div>
-         </div>
-         </div>
-         </div>
-         </div>
-         
+
          <div class="master-footer">
 	<ul>
             <li><h5>©2013<a href="http://www.about.me/dantashman" target="_blank"> Dan Tashman</a></h5></li>
