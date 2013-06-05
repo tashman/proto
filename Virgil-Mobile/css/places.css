@@ -12,6 +12,7 @@ body {
 	color: #FFF;
 	font-family: 'Muli', sans serif;
 	font-weight: 300;
+	line-height: 30px;
 	
 }
 
@@ -49,8 +50,8 @@ h3 {
 	position: fixed;
 	display:inline;
 	padding-left: 125px;
-	font-size: 42px;
-	line-height: 38px;
+	font-size: 52px;
+	line-height: 80px;
 	margin-top: -90px;
 	z-index: 20;
 	

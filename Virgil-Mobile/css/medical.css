@@ -4,7 +4,7 @@ body {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Muli', sans serif;
 	text-align: center;
 			
 }
@@ -33,7 +33,7 @@ h2 {
 
 h3 {
 	color: #000;
-	font-size: 18pt;
+	font-size: 22pt;
 }
 
 h4 {
@@ -72,25 +72,22 @@ h5 {
 #photoframe img { border: solid 3px #red;}
 
 #namebox {
-	text-align: center;
+
 }
 
 #primary {
 	height: 40px;
-	text-align: center;
 	margin-top: -35px;
 }
 
 #namebox h3 {
-	font-size: 48px;
-	margin-bottom: 10px;
+	margin-top:50px;
 	
 }
 
 
 #secondary {
 	height: 35px;
-	text-align: center;
 	margin-left: 10px;
 	margin-top: -35px;
 }
@@ -114,6 +111,10 @@ h5 {
 }
 
 #buttonbox h5 {
+	position: relative;
+	font-size: 28px;
+	top: -34px;
+	
 }
 
  #buttonbox:hover {
@@ -122,10 +123,12 @@ h5 {
 
 #buttonA {
 	position: relative;
-	float: left;
 	height: 60px;
-	width: 49%;
+	width: 96%;
 	background-color: red;
+	margin-left: 2%;
+	margin-right: 2%;
+	border: 5px solid #FFF;
 }
 
 
@@ -137,10 +140,12 @@ h5 {
 
 #buttonB {
 	position: relative;
-	float: right;
 	height: 60px;
-	width: 49%;;
+	width: 96%;
 	background-color: red;
+	margin-left: 2%;
+	margin-right: 2%;
+	border: 5px solid #FFF;
 }
 
 #buttonB:hover {
@@ -150,30 +155,18 @@ h5 {
 
 #buttonC {
 	position: relative;
-	float: left;
 	height: 60px;
-	width: 49%;;
+	width: 96%;
 	background-color: red;
-	margin-top: 5px;
+	margin-left: 2%;
+	margin-right: 2%;
+	border: 5px solid #FFF;
 }
 
 #buttonC:hover {
 		background-color: #000;
 }
 
-#buttonD {
-	position: relative;
-	float: right;
-	height: 60px;
-	width: 49%;
-	background-color: red;
-	margin-top: 5px;
-}
-
-#buttonD:hover {
-		background-color: #000;
-		color: #FFF;
-}
 
 #clear {
 clear: both;	
