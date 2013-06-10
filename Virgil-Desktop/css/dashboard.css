@@ -75,7 +75,7 @@ a {
 	width: 200px;
 	line-height: 23px;
 	margin: 0px auto;
-	margin-top: -28px;
+	margin-top: -25px;
 	}
 
 
@@ -220,7 +220,6 @@ background-color: #2faf2f; !important;
 .has-switch {
   display: inline-block;
   cursor: pointer;
-  border: 5px solid #2faf2f;
   position: relative;
   text-align: left;
   overflow: hidden;
@@ -272,6 +271,7 @@ background-color: #2faf2f; !important;
   padding-top: 2px;
   font-size: 18px;
   line-height: 18px;
+  
 }
 
 
@@ -289,7 +289,6 @@ background-color: #2faf2f; !important;
   z-index: 100;
   width: 34%;
   color: #ffffff;
-  background-color: #2faf2f;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -309,7 +308,6 @@ background-color: #2faf2f; !important;
 }
 .has-switch label i {
   color: #000;
-  text-shadow: 0 1px 0 #fff;
   line-height: 18px;
   pointer-events: none;
 }
@@ -324,8 +322,7 @@ background-color: #2faf2f; !important;
 
 
 .has-switch span.switch-right {
-  color: #333333;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  color: #333;
   background-color: #f0f0f0;
 }
 
@@ -335,8 +332,8 @@ background-color: #2faf2f; !important;
 .has-switch span.switch-right.active,
 .has-switch span.switch-right.disabled,
 .has-switch span.switch-right[disabled] {
-  color: #333333;
-  background-color: #ffffff;
+  color: #000;
+  background-color: #fff;
   *background-color: #f2f2f2;
 }
 .has-switch span.switch-right:active,
@@ -345,9 +342,8 @@ background-color: #2faf2f; !important;
 }
 .has-switch span.switch-primary,
 .has-switch span.switch-left {
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #005fcc;
+  color: #000;
+  background-color: #fff;
 }
 
 .has-switch span.switch-primary:hover,
@@ -362,7 +358,7 @@ background-color: #2faf2f; !important;
 .has-switch span.switch-left.disabled,
 .has-switch span.switch-primary[disabled],
 .has-switch span.switch-left[disabled] {
-  color: #ffffff;
-  background-color: #0088cc;
+  color: #000;
+  background-color: #fff;
   *background-color: #0077b3;
 }
